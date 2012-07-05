@@ -1,0 +1,227 @@
+
+body{
+	 font-family: Arial,"MS Trebuchet",sans-serif;
+	 background: #FFFFFF; 
+
+} 
+p { color: #202020; 
+	  font-family: Arial,"MS Trebuchet",sans-serif;
+	} 
+h1{ color: #202020;
+	  font-family: Georgia,"Times New Roman",Times,serif; 
+	  font-size:18px;
+	  font-weight:bold;
+}
+div{
+	  color: #202020; 
+	  font-family: Arial,"MS Trebuchet",sans-serif;
+}
+hr{
+	font-family: Arial,"MS Trebuchet",sans-serif;
+	font-size:12px;
+	border: 1px dotted #000000;
+}   
+a:link { 
+	color: #202020;
+	font-family: Arial,"MS Trebuchet",sans-serif;
+	text-decoration:none;
+}
+a:visited { 
+	color: #202020;
+	font-family: Arial,"MS Trebuchet",sans-serif;
+	text-decoration:none;
+}
+	
+/* ID CONTROL */	
+
+	
+/* Primary Navigation */
+#idNav{ /* Navigation */
+	font-family: Arial,"MS Trebuchet",sans-serif;
+	margin-top:20px;
+}	
+#idNavMenu{
+	position:relative;
+	font-family: Arial,"MS Trebuchet",sans-serif;
+	margin-left:-10px;
+}	
+#idNavMenuList{
+	 margin:0px 0px 0px 0px;
+}
+#idNavMenuList  li {
+	 display:inline; 
+	 list-style: none;
+	 margin:0px 0px 0px 0px;
+   border:0px 0px 0px 0px;
+	 padding-left:0px;
+	 padding-right:5px;
+	 font-size:12px;
+	 font-weight:bold;
+	 color:#202020;
+}
+#idNavMenuList li a{
+	text-decoration:none;
+	color:#CC6600;
+}
+
+/* Headline */
+#idTitle{ 
+	position:relative;
+	color:#202020;
+	font-family: Georgia,"Times New Roman",Times,serif; 
+	font-size:18px;
+	margin-left:30px;
+}
+
+/* Photo Column */ 
+#idPhoto{ 
+	position:relative;
+	float:left;
+	width:170px;
+	margin-left:30px;
+	font-size:12px;
+}
+#idPhotoCredit{
+	position:relative;
+	text-align:right;
+	font-size:10px;
+	color:#666666;
+}	   
+#idPhotoMenu{
+	position:relative;
+	color:#CC6600;
+	height:20px;
+	width:200px;
+	margin-top:10px;
+	font-size:11px;	
+}
+#idPhotoMenu a{
+ background:url(../images/sprites.gif) 0px -390px;
+ background-repeat: no-repeat;
+ padding-left:20px;
+}
+
+#idPhotoText{
+	position:relative;
+	text-align:left;
+	font-size:12px;
+} 
+
+/* Article column */  
+ #idArticle{ 
+	position:absolute;
+	float:left;
+	margin-left:200px;
+	color:#202020;
+	font-size:14px;
+	width:430px;
+	padding:0px 0px 0px 20px;
+}
+#idArticleCredit{
+	position:relative;
+}
+#idArticleAuthor{
+	color:#CC6600;
+	font-weight:bold;
+	font-size:13px;
+}
+#idArticleOrg{
+	text-transform:uppercase;
+	font-size:11px;
+}  
+#idArticlePub{
+	position:relative;
+	border-collapse: collapse;
+	line-height:95%;
+	font-size:12px;
+}
+
+#idArticleMenu{
+	position:relative;
+	font-size:11px;
+	color:#202020;
+	left:-40px;
+} 
+#idArticleMenuList{
+   margin:0px 0px 0px 0px;
+   border:0px 0px 0px 0px;
+}
+#idArticleMenuList  li {
+	 display:inline; 
+	 list-style: none;
+	 background-repeat: no-repeat;
+}
+#idArticleMenuList  li a {
+	 background-repeat: no-repeat;
+	 padding-left:16px;
+}
+#idArticleMenuPost{ 
+	margin-left:0px;
+	padding-right:15px;
+	border-right:1px solid #202020;
+}   
+#idArticleMenuPost a{ 
+	background:url(../images/sprites.gif) 0px -480px;
+}
+#idArticleMenuEmail{
+	margin-left:5px;
+	padding-right:15px;
+	border-right:1px solid #202020;
+}  
+#idArticleMenuEmail a{
+	background:url(../images/sprites.gif) 0px -255px;
+}   
+#idArticleMenuPrint{ 
+	margin-left:5px;
+	padding-right:14px;
+	border-right:1px solid #202020;
+}   
+#idArticleMenuPrint a{ 
+	background:url(../images/sprites.gif) 0px -302px;
+}  
+#idArticleMenuShare{ 
+	margin-left:5px;
+	padding-right:12px;
+	border-right:1px solid #202020;
+} 
+#idArticleMenuShare a{ 
+	background:url(../images/sprites.gif) 0px -346px;
+}    
+#idArticleMenuSize{
+	background:url(../images/sprites.gif) 0px -390px;
+	margin-left:3px;
+	padding-right:0px;
+	padding-left:16px;
+}
+#idArticleText{
+	position:relative;
+	margin-top:10px;
+	font-size:14px;
+} 
+#idArticleLoc{
+	text-transform:uppercase;
+}
+
+
+
+/* CLASSES */
+
+.clNum{ /* Numeric alignment */
+	text-align:right;     
+}
+
+.cGradient{ /*body full gradient */
+  background:#FFFFFF;
+  /*WebKit (Safari, Google Chrome etc) */
+  background: -webkit-gradient(linear, left top, left bottom, from(#CCCCCC), to(#FFFFFF))no-repeat;
+
+ /*Mozilla/Gecko (Firefox etc) */
+  background: -moz-linear-gradient(top, #CCCCCC, #FFFFFF) no-repeat;
+
+  /*Internet Explorer 5.5 - 7 */
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCCCCC, endColorstr=#FFFFFFFF);
+
+  /*Internet Explorer 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCCCCC, endColorstr=#FFFFFFFF)";   
+}
+ 
